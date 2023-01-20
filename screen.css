@@ -1,0 +1,117 @@
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#Top_Bar
+{
+    height: 15px;
+    background-color: #424242;
+}
+
+#Page
+{
+    height: 100vh;
+    padding-top: 99px;
+    background-color: #ffffff;
+}
+
+
+
+#Logo_Image
+{
+    height: 40px;
+    width: 40px;
+    transform: translate(0, 5px);
+}
+
+h1
+{
+    width: 420px;
+    height: 47px;
+    font-size: 56px;
+    transform: translate(0, -45px);
+}
+
+#Contents
+{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 384px 373px;
+    gap: 45px;
+}
+
+#Title_Logo
+{
+    grid-row: 1;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+#Intro_Image
+{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#Computer_Image
+{
+    border-radius: 1.5rem;
+}
+
+#History_Section
+{
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #E9EAEC;
+    border-radius: 1.5rem;
+    padding-left: 29px;
+    padding-right: 27px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    word-spacing: 0.2px;
+    line-height: 25px;
+}
+#History_Title
+{
+    font-size: 32px;
+}
+
+#Code_Section
+{
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #E9EAEC;
+    border-radius: 1.5rem;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 18px;
+}
+#Example_Title
+{
+    font-size: 32px;
+}
+#Code_Example
+{
+    padding-left: 29px;
+    padding-right: 29px;
+    transform: translate(-29px, 0px);
+    width: 315px;
+    height: 229px;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: #424242;
+    color: #ffffff;
+}
+#Code_Example pre code
+{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    word-spacing: 0.5px;
+    line-height: 20px;
+}
